@@ -1,0 +1,10 @@
+node_modules
+
+#builds
+build
+
+# Envoriment
+.env
+
+# Dependencies
+package-lock.json
