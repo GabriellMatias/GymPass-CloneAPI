@@ -31,3 +31,10 @@
 
   # Notes
     -> .npmrc -> salvar as dependencias com a versao exata
+
+# SOLID PRINCIPES
+  -> 
+  ->
+  ->
+  ->
+  -> Dependecy invertion
