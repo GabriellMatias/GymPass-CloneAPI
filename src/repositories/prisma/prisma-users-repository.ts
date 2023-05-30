@@ -18,4 +18,13 @@ export class PrismaUsersRepository implements UsersRepositoryProps {
     })
     return userWithSamEmail
   }
+
+  async findById(id: string): Promise<User | null> {
+    const userWithSamEmail = await prisma.user.findUnique({
+      where: {
+        id,
+      },
+    })
+    return userWithSamEmail
+  }
 }
