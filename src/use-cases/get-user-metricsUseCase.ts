@@ -1,4 +1,4 @@
-import { CheckInsRepositoryProps } from '@/repositories/prisma/check-ins-repositoy'
+import { CheckInsRepositoryProps } from '@/repositories/interfaces/check-ins-repositoy'
 
 interface GetUserMetricsUseCaseRequest {
   userId: string

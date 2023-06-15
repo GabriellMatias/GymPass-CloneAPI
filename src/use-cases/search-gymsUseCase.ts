@@ -1,5 +1,5 @@
 import { Gym } from '@prisma/client'
-import { GymRepositoryProps } from '@/repositories/prisma/gyms-repository'
+import { GymRepositoryProps } from '@/repositories/interfaces/gyms-repository'
 
 interface SearchGymsUseCaseParams {
   query: string

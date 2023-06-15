@@ -43,3 +43,16 @@
   ->
   ->
   -> Dependecy invertion
+
+# Estrategias de Autenticacao
+ -> Basic Auth
+    -> usuario envias as credenciais como cabecalho da aplicacao
+    -> toda requisicao tem que se autenticar
+
+-> JWT - Json Web Token
+    -> Envia as credenciais uma vez, e entao o backEnd gera um token UNICO e NAO pode ser modificado
+        StateLess: ou seja nao armazenado em nenhum DB
+    ->Esse token vai servir de autenticacao pela aplicacao.
+    -> Back end quando vai criar o token usa uma palavra chave -> [aas45aefw1]
+
+    -> Token vem separado em Header.payload.sign

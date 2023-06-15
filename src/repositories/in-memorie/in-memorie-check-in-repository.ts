@@ -1,6 +1,6 @@
 import { Prisma, CheckIn } from '@prisma/client'
 
-import { CheckInsRepositoryProps } from '../prisma/check-ins-repositoy'
+import { CheckInsRepositoryProps } from '../interfaces/check-ins-repositoy'
 import { randomUUID } from 'crypto'
 import dayjs from 'dayjs'
 
