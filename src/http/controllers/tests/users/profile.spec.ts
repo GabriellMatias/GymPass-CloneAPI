@@ -19,7 +19,7 @@ describe('Profile E2E', () => {
     expect(profileResponse.statusCode).toEqual(200)
     expect(profileResponse.body.user).toEqual(
       expect.objectContaining({
-        email: 'Jonh@example.com',
+        email: 'johndoe@example.com',
       }),
     )
   })
