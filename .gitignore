@@ -6,8 +6,5 @@ build
 # Envoriment
 .env
 
-# Dependencies
-package-lock.json
-
 # test
 coverage
